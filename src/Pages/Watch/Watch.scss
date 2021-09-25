@@ -1,0 +1,17 @@
+.watch {
+  position: relative;
+  .back {
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    z-index: 5;
+    span {
+      position: absolute;
+      top: 0.2rem;
+    }
+  }
+  video {
+    width: 100vw;
+    height: 99.5vh;
+  }
+}

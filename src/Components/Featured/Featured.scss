@@ -1,0 +1,84 @@
+.featured {
+  height: 90vh;
+  position: relative;
+
+  .category {
+    position: absolute;
+    top: 8rem;
+    left: 4rem;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      margin-right: 2rem;
+      font-weight: bolder;
+    }
+
+    select {
+      background-color: var(--main-color);
+      color: var(--secondary-color);
+      font-size: 1.3rem;
+      padding: 0.25rem 0.75rem;
+      border: 1px solid var(--secondary-color);
+    }
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+  .info {
+    width: 35%;
+    position: absolute;
+    bottom: 8rem;
+    left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .desc {
+      font-size: 1.2rem;
+      margin: 1rem 0rem;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .play {
+        padding: 0.75rem 2rem;
+        border-radius: 0.5rem;
+        border: none;
+        margin-right: 2rem;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--secondary-color);
+        color: var(--main-color);
+        cursor: pointer;
+        span {
+          margin-left: 1rem;
+        }
+      }
+      .more {
+        padding: 0.75rem 2rem;
+        border-radius: 0.5rem;
+        border: none;
+        margin-right: 2rem;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #949191;
+        color: var(--secondary-color);
+        cursor: pointer;
+        span {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}

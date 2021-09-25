@@ -1,0 +1,61 @@
+.register {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/register-background.jpg');
+  position: relative;
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding: 0rem 2rem;
+    img {
+      height: 90%;
+    }
+    button {
+      padding: 1rem 2rem;
+      border: none;
+      background-color: red;
+      color: #ffffff;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-radius: 0.5rem;
+    }
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 1.5rem;
+    h3 {
+      margin: 1rem 0;
+    }
+  }
+
+  .input {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+      padding: 1.5rem 1rem;
+      width: 30rem;
+      border: none;
+    }
+    .registerButton {
+      background-color: red;
+      border: none;
+      padding: 1.2rem 3rem;
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #ffffff;
+    }
+  }
+}
